@@ -1,6 +1,6 @@
 {
   "name": "nodejs-dns-lookup-cli",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Resolve hostname to IP address (CLI)",
   "main": "index.js",
   "scripts": {
