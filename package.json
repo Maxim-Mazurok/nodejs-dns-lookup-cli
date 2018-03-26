@@ -2,13 +2,23 @@
   "name": "nodejs-dns-lookup-cli",
   "version": "1.0.1",
   "description": "Resolve hostname to IP address (CLI)",
+  "author": "Maxim Mazurok <maxim@mazurok.com>",
+  "license": "MIT",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "Maxim Mazurok <maxim@mazurok.com>",
-  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Maxim-Mazurok/nodejs-dns-lookup-cli.git"
+  },
+  "keywords": [
+    "dns",
+    "dns-lookup",
+    "hostname",
+    "cli"
+  ],
   "bin": {
-    "dns-lookup": "bin.bat"
+    "dns-lookup": "index.js"
   }
 }

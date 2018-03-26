@@ -1,3 +1,5 @@
+#! /usr/bin/env node
+
 const dns = require('dns');
 
 if (process.argv.length < 3) {
